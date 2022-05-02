@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="verifyAccountsTest.verifyAccountsTest"/>
+      <class name="verifyContactsTest.verifyCreateNewContact"/>
+      <class name="VerifyLeadsTest.verifyLeadsTest"/>
+      <class name="verifyAccountsTest.verifyNewAccountTest"/>
+      <class name="VerifyLeadsTest.verifyNewLeadTest"/>
+      <class name="VerifyPotentialsTest.verifyCreateNewPotentialTest"/>
+      <class name="verifyCampaignsTest.verifyCampaigns"/>
+      <class name="verifyContactsTest.verifyContacts"/>
+      <class name="verifyContactsTest.verifyParentContact"/>
+      <class name="VerifyPotentialsTest.verifyPotentialsTest"/>
+      <class name="com.MavenikaCRM.Loginpage.ValidLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
