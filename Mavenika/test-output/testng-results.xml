@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[accountspage is Displayed]]>
+      <![CDATA[contactspage is Displayed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17809" started-at="2022-05-01T16:51:44 IST" finished-at="2022-05-01T16:52:02 IST">
+  <suite name="Default suite" duration-ms="13002" started-at="2022-05-05T11:08:51 IST" finished-at="2022-05-05T11:09:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17809" started-at="2022-05-01T16:51:44 IST" finished-at="2022-05-01T16:52:02 IST">
-      <class name="verifyAccountsTest.verifyAccountsTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:verifyAccountsTest.verifyAccountsTest@47db50c5]" name="openBrowser" is-config="true" duration-ms="5868" started-at="2022-05-01T16:51:44 IST" finished-at="2022-05-01T16:51:50 IST">
+    <test name="Default test" duration-ms="13002" started-at="2022-05-05T11:08:51 IST" finished-at="2022-05-05T11:09:04 IST">
+      <class name="verifyContactsTest.verifyContacts">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:verifyContactsTest.verifyContacts@545997b1]" name="openBrowser" is-config="true" duration-ms="5040" started-at="2022-05-05T11:08:51 IST" finished-at="2022-05-05T11:08:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyaccountstest()[pri:0, instance:verifyAccountsTest.verifyAccountsTest@47db50c5]" name="verifyaccountstest" duration-ms="11871" started-at="2022-05-01T16:51:50 IST" finished-at="2022-05-01T16:52:02 IST">
+        <test-method status="PASS" signature="vverifycontactsleast()[pri:0, instance:verifyContactsTest.verifyContacts@545997b1]" name="vverifycontactsleast" duration-ms="7919" started-at="2022-05-05T11:08:56 IST" finished-at="2022-05-05T11:09:04 IST">
           <reporter-output>
             <line>
-              <![CDATA[accountspage is Displayed]]>
+              <![CDATA[contactspage is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyaccountstest -->
-      </class> <!-- verifyAccountsTest.verifyAccountsTest -->
+        </test-method> <!-- vverifycontactsleast -->
+      </class> <!-- verifyContactsTest.verifyContacts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

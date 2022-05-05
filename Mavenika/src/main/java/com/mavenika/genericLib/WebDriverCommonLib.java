@@ -52,6 +52,15 @@ public class WebDriverCommonLib {
 	public void switchToFrame(int index) {
 		BaseTest.driver.switchTo().frame(index);
 	}
+	public void switchToAlert() {
+		BaseTest.driver.switchTo().alert();
+	}
+	public void acceptAlert() {
+		BaseTest.driver.switchTo().alert().accept();
+	}
+	public void dissmissAlert() {
+		BaseTest.driver.switchTo().alert().dismiss();
+	}
 
 	public void mouseHover(WebElement element) {
 		Actions ac = new Actions(BaseTest.driver);
@@ -73,6 +82,7 @@ public class WebDriverCommonLib {
 			e.printStackTrace();
 		}
 	}
+
 
 	public void executeJavaScript(String script) {
 		JavascriptExecutor jse = (JavascriptExecutor) BaseTest.driver;

@@ -25,6 +25,7 @@ public class verifyContacts extends BaseTest{
     cp.clicknewcontactbtn();
     
     WebDriverCommonLib wlib=new WebDriverCommonLib();
+    
     wlib.elementDisplayed(cp.getContactsTextAddr1(), "contactspage");
     
 	}   
